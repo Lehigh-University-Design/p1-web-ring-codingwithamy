@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "bubblegum";
+    src: url("./BUBBLEGUMS.woff") format('woff');
+  }
+
 .nav-bar {
     position: fixed;
     z-index: 9999;
@@ -6,22 +11,21 @@
     background-color: black;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.item {
-    width: 30%;
-    position: relative;
-    img{
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-  }
-  
-  /* Clear floats after image containers */
-  .img-holder {
-    display:flex;
+.img-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     justify-content: space-between;
-    position:relative;
+  }
+
+  .img-holder .item {
+    flex-grow: 1;
+    width: 25%;
+    margin: 20px;
+  } 
+
+  .img-holder img {
+    height: 100%;
     width: 100%;
   }
 
@@ -69,7 +73,7 @@ h1{
 }
 
 h2 {
-    font-family: Modak;
+    font-family: bubblegum, sans-serif;
     font-size: 24px;
     margin: auto;
     color: aliceblue;
