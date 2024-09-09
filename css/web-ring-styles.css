@@ -1,3 +1,30 @@
+.nav-bar {
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.item {
+    width: 30%;
+    position: relative;
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+  }
+  
+  /* Clear floats after image containers */
+  .img-holder {
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    width: 100%;
+  }
+
 :root {
     --background-color: rgb(211, 177, 177);
     --light-color: #ad8989;
@@ -41,6 +68,14 @@ h1{
     font-size: 3em;
 }
 
+h2 {
+    font-family: Modak;
+    font-size: 24px;
+    margin: auto;
+    color: aliceblue;
+    font-weight:100;
+    margin-left: 50px;
+}
 p{
     font-family: "Handjet", sans-serif;
     font-size: 24px;
@@ -67,7 +102,7 @@ p{
         aspect-ratio: 3/2;
     }
     img {   /*sizing of the images in post */
-        width: 100%;
+        width: 0%;
         height: auto;
         display: block;
     }
