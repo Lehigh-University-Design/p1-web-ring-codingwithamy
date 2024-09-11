@@ -102,8 +102,13 @@ p{
 }
 
 .externallink {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
     margin-bottom: 1em;
     padding: .5em 1em;
+    border: 1px solid var(--background-color);
+    background-color: ;
 }
 
 .about, #supportnj, .awards {
@@ -112,9 +117,14 @@ p{
     padding: .5em 1em;
 }
 
-.hover 
+
+.hover {
+    a{
+        text-decoration: none;
+    }
     a:hover {
         text-decoration: underline;
+    }
 }
 
 img {
