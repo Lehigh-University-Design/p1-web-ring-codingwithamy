@@ -45,17 +45,6 @@ h2 {
   }
 
 
-
-
-body{
-    font-family: "Nerko One", cursive;
-    font-weight: auto;
-    font-style: normal;
-    background-color: var(--background-color);
-    margin: 0 1 em;
-    font-size: 16px;
-}
-
 main{
     position: relative; 
     max-width: 1080px;
@@ -65,32 +54,28 @@ main{
     background-image: url("bunny-background");
 }
 
-
-
 #head {
     display: flex;
     justify-content: space-between;
     }
 
-.sub-head {
-    margin-left: auto;
-    order: 2;
-}
-#head h3 a{
-    color: var(--dark-color);
-    text-decoration: none;
-}
+ body{
+        font-family: "Nerko One", cursive;
+        font-weight: auto;
+        font-style: normal;
+        font-size: larger;
+        background-color: var(--background-color);
+        margin: 0 1 em;
+        font-size: 16px;
+ }
 
-h1{
-    font: weight 100px;
-    font-size: 3em;
-}
-
-
-
-
-.awards {
-    width: 10%;
+.img-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
       
 p{
@@ -100,7 +85,7 @@ p{
     color:rgb(3, 21, 36);
 }
 
-.about, #supportnj {
+.about, #supportnj, .awards {
     border: 1px solid var(--dark-color);
     margin-bottom: 1em;
     padding: .5em 1em;
