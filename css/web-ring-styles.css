@@ -104,7 +104,7 @@ p{
 .externallink {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    background-color: var(--background-color);
     margin-bottom: 1em;
     padding: .5em 1em;
     border: 1px solid var(--background-color);
