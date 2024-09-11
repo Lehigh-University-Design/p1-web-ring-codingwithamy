@@ -7,14 +7,14 @@
     --background-color: rgb(1, 2, 66);
     --light-color: #c9aaaa;
     --dark-color: rgb(0, 0, 0);
-    --link-color: rgb(255, 0, 153);
+    --link-color: rgb(8, 5, 49);
 }
 .nav-bar {
     position: fixed;
     z-index: 9999;
     top: 0px;
     width: 85.5%;
-    background-color: rgb(27, 42, 70);
+    background-color: rgb(14, 34, 71);
 }
 h2 {
     font-family: bubblegum, sans-serif;
