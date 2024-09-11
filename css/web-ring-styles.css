@@ -7,7 +7,7 @@
     --background-color: rgb(1, 2, 66);
     --light-color: #c9aaaa;
     --dark-color: rgb(0, 0, 0);
-    --link-color: rgb(8, 5, 49);
+    --link-color: rgb(239, 239, 240);
 }
 .nav-bar {
     position: fixed;
@@ -108,7 +108,7 @@ p{
     margin-bottom: 1em;
     padding: .5em 1em;
     border: 1px solid var(--background-color);
-    background-color: ;
+    
 }
 
 .about, #supportnj, .awards {
