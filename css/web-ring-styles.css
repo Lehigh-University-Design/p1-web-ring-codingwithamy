@@ -117,3 +117,6 @@ p{
         text-decoration: underline;
 }
 
+img {
+    border-radius: 5px;
+}
